@@ -1,7 +1,7 @@
 const express = require('express');
 const next = require('next');
-
 const dev = process.env.NODE_ENV !== 'production';
+
 // Rewrite to the src path
 const app = next({
   dev,
