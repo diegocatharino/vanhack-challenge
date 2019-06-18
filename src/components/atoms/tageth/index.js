@@ -1,11 +1,9 @@
-import React from "react";
+import { TagEth } from './styled';
 
-class TagEth extends React.Component {
-  render() {
-    return (
-		<span className="eth">0.9087 ETH</span>
-    );
-  }
-}
+const Text = ( props ) => (
+  	<TagEth {...props}>
+  		{props.text}
+  	</TagEth>
+);
 
-export default(TagEth);
+export default(Text);

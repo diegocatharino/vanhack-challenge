@@ -1,38 +1,30 @@
-import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { Component } from 'react';
+import IconBars from '../../atoms/iconbars';
+import IconMap from '../../atoms/iconmap';
+import IconChevronDown from '../../atoms/iconchevrondown';
+import TitleH2 from '../../atoms/titleh2';
+import MenuContent from '../../molecules/menucontent';
+import { MenuContainer } from './styled';
 
-const linkStyle = {
-  marginRight: 15
-};
+class Header extends Component {
 
-const Header = () => (
-  <div>
-  	<div className="menuContainer">
+    render() {
+        const { titleH2 } = this.props;
+        return (	
+			<MenuContainer>
+				<div className="col-xs-10 left-area">
+				    <MenuContent />
+				    <IconBars />
+					<IconMap />
+				</div>
+				<div className="col-xs-2 right-area">
+					<IconChevronDown />
+					<TitleH2 text="Alex Doe" />
+				</div>
 
-	    <div className="menuContent">
-		    <Link href="/">
-		      <a style={linkStyle}>Home</a>
-		    </Link>
-	    </div>	  
-
-	  	<span className="bars">
-	  		<FontAwesomeIcon icon="bars" />
-  		</span>
-
-	  	<span className="mapMarker">
-	  		<FontAwesomeIcon icon="map-marker" />
-	  	</span>
-
-	  	<span className="user">
-	  		Alex Doe
-	  	</span>
-
-	  	<span className="chevronCircleDown">
-	  		<FontAwesomeIcon icon="chevron-circle-down" />
-	  	</span>
-
-    </div>
-  </div>
-);
+			</MenuContainer>
+        );
+    }
+}
 
 export default Header;

@@ -1,12 +1,11 @@
 import React from "react";
-import myImg from '../../../static/images/thumbavatar-default.png';
+// Import Style
+import { ThumbAvatar } from './styled';
 
-class ThumbAvatar extends React.Component {
-  render() {
-    return (
-		<img src={myImg} />
-    );
-  }
-}
+const Img = ( props ) => (
+  	<ThumbAvatar {...props}>
+  		<img src={props.src} />
+  	</ThumbAvatar>
+);
 
-export default(ThumbAvatar);
+export default(Img);

@@ -1,34 +1,36 @@
 import React from "react";
 import Chart from '../../molecules/chart/chart';
-import tagEth from '../../atoms/tagEth';
-import tagBtc from '../../atoms/tagBtc';
+import TagEth from '../../atoms/tageth';
+import TagBtc from '../../atoms/tagbtc';
+import TitleH5 from '../../atoms/titleh5';
+import NumberBigger from '../../atoms/numberbigger';
+import TextComp from '../../atoms/textcomp';
+import { BlockDefault } from './styled';
 
 class Earnings extends React.Component {
   render() {
     return (
-  		<div className="blockDefault">
+    	<BlockDefault className="blockDefault">
 
 	      	<div className="row">
-	  			<h5>Earnings</h5>
+				<TitleH5 text="Earnings" />
 		    	<div className="chartContent">
 		    		<Chart />
 		    	</div>	  
 	    	</div>
 
 	      	<div className="row">
-		     	<div className="col">
-		     		<span className="totalMoney">$2878.90</span>
-		     		<span className="compTxt">
-		     			<strong>+42</strong> since last week
-		     		</span>
+		     	<div className="col-xs-6 numbers">
+		     		<NumberBigger text="$2878.90" />
+		     		<TextComp text="<strong>+42</strong> since last week" />
 		     	</div>
-		     	<div className="col">
-		     		<tagEth />
-		     		<tagBtc />
+		     	<div className="col-xs-6 tags">
+		     		<TagEth text="0.9087 ETH" />
+		     		<TagBtc text="0.5 BTC" />
 		     	</div>
 	     	</div>
 
-	    </div>
+	    </BlockDefault>
     );
   }
 }

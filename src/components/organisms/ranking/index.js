@@ -1,45 +1,43 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import TitleH5 from '../../atoms/titleh5';
+import IconBracket from '../../atoms/iconbracket';
+import IconStar from '../../atoms/iconstar';
+import NumberBigger from '../../atoms/numberbigger';
+import TextComp from '../../atoms/textcomp';
+import TagDefault from '../../atoms/tagdefault';
+import { BlockDefault } from './styled';
 
 class Ranking extends React.Component {
   render() {
     return (
-  		<div className="blockDefault">
+  		<BlockDefault className="blockDefault">
 
 	      	<div className="row bottomBorder">
-		     	<div className="col">
-	  				<h5>Rank</h5>
-	  				<span className="icon">
-	  					<FontAwesomeIcon icon="star" />
-		     		</span>
-		     		<span className="numWithIcon">607</span>
-		     		<span className="compTxt">
-		     			You're in top <strong>40</strong>
-		     		</span>
+		     	<div className="col-xs-6">
+	  				<TitleH5 text="Rank" />
+	  				<IconStar />
+	  				<NumberBigger text="607" />
+	  				<TextComp text="You're in top <strong>40</strong>" />
 		     	</div>
-		     	<div className="col">
-	  				<h5>Projects</h5>
-	  				<span className="icon">
-		  				<FontAwesomeIcon icon="chevron-left" />
-		  				<FontAwesomeIcon icon="chevron-right" />
-	  				</span>
-		     		<span className="numWithIcon">45</span>
-		     		<span className="compTxt">
-		     			<strong>10</strong> in this month
-		     		</span>
+		     	<div className="col-xs-6">
+	  				<TitleH5 text="Projects" />
+	  				<IconBracket />
+	  				<NumberBigger text="45" />
+	  				<TextComp text="<strong>10</strong> in this month" />
 		     	</div>
 	     	</div>
 
 	      	<div className="row">
-	  			<h5>Top Categories</h5>
+	  			<TitleH5 text="Top Categories" />
 		    	<ul className="topCategories">
-		    		<li>ruby</li>
-		    		<li>clojure</li>
-		    		<li>java</li>
+		    		<li><TagDefault text="ruby" /></li>
+		    		<li><TagDefault text="clojure" /></li>
+		    		<li><TagDefault text="java" /></li>
 		    	</ul>	  
 	    	</div>	     	
 
-	    </div>
+	    </BlockDefault>
     );
   }
 }

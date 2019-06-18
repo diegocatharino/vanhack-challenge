@@ -1,26 +1,28 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import UserRankings from '../../molecules/userrankings';
+import BtnViewAll from '../../atoms/btnviewall';
+import TitleH2 from '../../atoms/titleh2';
+import { BlockWithSection } from './styled';
 
 class TopEarners extends React.Component {
   render() {
     return (
-  		<div>
+  		<BlockWithSection>
 
 	  		<div className="sectionTitle">
-		     	<div className="col">
-		  			<h2>Top Earners</h2>
+		     	<div className="col-xs-10">
+					<TitleH2 text="Top Earners" />
 				</div>
 
-		     	<div className="col">
-		     		<span>View All</span>
-					<FontAwesomeIcon icon="arrow-right" />
+		     	<div className="col-xs-2">
+		     		<BtnViewAll />
 		     	</div>
 			</div>
 
 			<UserRankings />	  	
 
-	    </div>
+	    </BlockWithSection>
     );
   }
 }

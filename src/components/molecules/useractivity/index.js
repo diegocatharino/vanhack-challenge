@@ -2,36 +2,42 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TagEth from '../../atoms/tageth';
 import TagBtc from '../../atoms/tagbtc';
+import TextTime from '../../atoms/texttime';
+import TitleH5 from '../../atoms/titleh5';
 import ThumbAvatar from '../../atoms/thumbavatar';
+import TextAvatar from '../../atoms/textavatar';
+import TextDefault from '../../atoms/textdefault';
+import NumberDefault from '../../atoms/numberdefault';
+// Import Style
+import { BlockDefault } from './styled';
+import myImg from '../../../static/images/thumbavatar-default.png';
 
 class UserActivity extends React.Component {
   render() {
     return (
-  		<div className="blockDefault">
+    	<BlockDefault className="blockDefault">
 
 	      	<div className="row">
-	      		<h5>Recent</h5>
+				<TitleH5 text="Recent" />
       		</div>
 
 			<div className="row">      		
 				<div className="col">
 					<FontAwesomeIcon icon="code" />
-					<ThumbAvatar />
+					<ThumbAvatar src={myImg} />
 				</div>
 				<div className="col infos">
 					<div className="name">
-						<span>Alice Martin</span>
-						<span className="date">5 hours ago</span>
+						<TextAvatar text="Alice Martin" />
+						<TextTime text="5 hours ago" />
 					</div>
-			      	<div className="infoTxt">
-				     	Received $780 for a Ruby project.
-			     	</div>					
-		     		<TagEth />
-		     		<span className="num">$760</span>
+			      	<TextDefault text="Recieved $760 for a Ruby project." />
+		     		<TagEth text="1.2 ETH" />
+		     		<NumberDefault text="$760" />
 				</div>
 	     	</div>
 
-	    </div>
+	    </BlockDefault>
     );
   }
 }

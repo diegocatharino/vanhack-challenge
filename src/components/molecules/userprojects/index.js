@@ -1,38 +1,49 @@
 import React from "react";
 import TagEth from '../../atoms/tageth';
 import TagBtc from '../../atoms/tagbtc';
+import TagDefault from '../../atoms/tagdefault';
+import TextTime from '../../atoms/texttime';
+import NumberDefault from '../../atoms/numberdefault';
 import ThumbAvatar from '../../atoms/thumbavatar';
+import TextAvatar from '../../atoms/textavatar';
+import TextBigger from '../../atoms/textbigger';
+// Import Style
+import { BlockDefault } from './styled';
+import myImg from '../../../static/images/thumbavatar-default.png';
 
 class UserProjects extends React.Component {
   render() {
     return (
-  		<div className="blockDefault">
+    	<BlockDefault className="blockDefault">
 
 	      	<div className="row">
-				<div className="col">
-					<ThumbAvatar />
+				<div className="col-xs-10">
+					<ThumbAvatar src={myImg} />
 					<div className="name">
-						<span>Alice Martin</span>
-						<span className="date">5 hours ago</span>
+						<TextAvatar text="Alice Martin" />
+						<TextTime text="5 hours ago" />
 					</div>
+				</div>
+				<div className="col-xs-2 tag">
+					<TagDefault text="ruby" />
 				</div>
 	     	</div>
 
 	      	<div className="row bottomBorder">
-		     	Design and develop a website for an educational platform focusing on the growth of children.
+	      		<TextBigger text="Design and develop a website for an educational platform focusing on the growth of children." />  	
 	     	</div>
 
 	      	<div className="row">
-		     	<div className="col">
-		     		<TagEth />
-		     		<TagBtc />
+		     	<div className="col-xs-10">
+		     		<TagEth text="1.2 ETH" />
+		     		<TagBtc text="0.3 BTC" />
 		     	</div>  
-		     	<div className="col">
-		     		<span className="num">$760</span>
+		     	<div className="col-xs-2 number">
+		     		<NumberDefault text="$760" />
 		     	</div>  
 	    	</div>	     
 
-	    </div>
+	    </BlockDefault>
     );
   }
 }

@@ -1,11 +1,9 @@
-import React from "react";
+import { TagBtc } from './styled';
 
-class TagBtc extends React.Component {
-  render() {
-    return (
- 		<span className="btc">0.5 BTC</span>
-    );
-  }
-}
+const Text = ( props ) => (
+  	<TagBtc {...props}>
+  		{props.text}
+  	</TagBtc>
+);
 
-export default(TagBtc);
+export default(Text);

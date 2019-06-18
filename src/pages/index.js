@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-unfetch';
-import css from "../static/css/style.css";
+import css from "../static/css/style.scss";
 import Header from '../components/organisms/header';
 import Earnings from '../components/organisms/earnings';
 import Ranking from '../components/organisms/ranking';
@@ -8,14 +8,14 @@ import Activity from '../components/organisms/activity';
 import TopEarners from '../components/organisms/topearners';
 import Slack from '../components/organisms/slack';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faMapMarker, faStar, faBars, faChevronCircleDown, faChevronLeft, faChevronRight, faArrowRight, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faMapMarker, faStar, faBars, faChevronDown, faChevronLeft, faChevronRight, faArrowRight, faCode } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faMapMarker, faStar, faBars, faChevronCircleDown, faChevronLeft, faChevronRight, faArrowRight, faCode)
+library.add(faMapMarker, faStar, faBars, faChevronDown, faChevronLeft, faChevronRight, faArrowRight, faCode)
 export default function Index() {
   return (
     <div>
       <Header />
-      <Earnings />
+      <Earnings /> 
       <Ranking />
       <SuggestedProjects />
       <Slack />
