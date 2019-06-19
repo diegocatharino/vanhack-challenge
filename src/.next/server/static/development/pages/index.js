@@ -1217,6 +1217,54 @@ var IconStar = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.text.wit
 
 /***/ }),
 
+/***/ "./components/atoms/logo/index.js":
+/*!****************************************!*\
+  !*** ./components/atoms/logo/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styled */ "./components/atoms/logo/styled.js");
+
+ // Import Style
+
+
+
+var Text = function Text(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_2__["Logo"], props, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Dash"), " Elements"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Text);
+
+/***/ }),
+
+/***/ "./components/atoms/logo/styled.js":
+/*!*****************************************!*\
+  !*** ./components/atoms/logo/styled.js ***!
+  \*****************************************/
+/*! exports provided: Logo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Logo", function() { return Logo; });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+// Import Styled
+
+var Logo = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.text.withConfig({
+  displayName: "styled__Logo",
+  componentId: "rclpx0-0"
+})(["h1{color:#FFFFFF80;font-family:\"Rubik\";font-size:20px;line-height:24px;display:inline-block;font-weight:normal;letter-spacing:0.75px;strong{font-family:\"Roboto\";color:#FFFFFF;}}"]);
+
+/***/ }),
+
 /***/ "./components/atoms/numberbigger/index.js":
 /*!************************************************!*\
   !*** ./components/atoms/numberbigger/index.js ***!
@@ -2072,6 +2120,8 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_16__["BlockDefault"], {
         className: "blockDefault"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "blockContainer"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_11__["default"], {
         text: "Recent"
@@ -2096,7 +2146,7 @@ function (_React$Component) {
         text: "1.2 ETH"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_15__["default"], {
         text: "$760"
-      }))));
+      })))));
     }
   }]);
 
@@ -2190,6 +2240,8 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_14__["BlockDefault"], {
         className: "blockDefault"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "blockContainer"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-10"
@@ -2221,7 +2273,7 @@ function (_React$Component) {
         className: "col-xs-2 number"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_10__["default"], {
         text: "$760"
-      }))));
+      })))));
     }
   }]);
 
@@ -2313,13 +2365,15 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_14__["BlockDefault"], {
         className: "blockDefault"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "blockContainer"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-6"
+        className: "col-xs-4"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "Rankings"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-6 menu"
+        className: "col-xs-8 menu"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_9__["default"], {
         className: "active",
         text: "All time"
@@ -2342,7 +2396,7 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
         className: "num",
         text: "$760"
-      })))));
+      }))))));
     }
   }]);
 
@@ -2419,14 +2473,16 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Activity, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_9__["BlockWithSection"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_9__["BlockWithSection"], {
+        className: "col-md-8"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "sectionTitle"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-10"
+        className: "col-xs-6"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh2__WEBPACK_IMPORTED_MODULE_7__["default"], {
         text: "Activity"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-2"
+        className: "col-xs-6"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_btnviewall__WEBPACK_IMPORTED_MODULE_8__["default"], null))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_molecules_useractivity__WEBPACK_IMPORTED_MODULE_6__["default"], null));
     }
   }]);
@@ -2511,7 +2567,9 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_12__["BlockDefault"], {
-        className: "blockDefault"
+        className: "blockDefault col-md-8"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "blockContainer"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -2530,7 +2588,7 @@ function (_React$Component) {
         text: "0.9087 ETH"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagbtc__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "0.5 BTC"
-      }))));
+      })))));
     }
   }]);
 
@@ -2582,8 +2640,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _atoms_iconmap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../atoms/iconmap */ "./components/atoms/iconmap/index.js");
 /* harmony import */ var _atoms_iconchevrondown__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/iconchevrondown */ "./components/atoms/iconchevrondown/index.js");
 /* harmony import */ var _atoms_titleh2__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/titleh2 */ "./components/atoms/titleh2/index.js");
-/* harmony import */ var _molecules_menucontent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../molecules/menucontent */ "./components/molecules/menucontent/index.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./styled */ "./components/organisms/header/styled.js");
+/* harmony import */ var _atoms_logo__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/logo */ "./components/atoms/logo/index.js");
+/* harmony import */ var _molecules_menucontent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../molecules/menucontent */ "./components/molecules/menucontent/index.js");
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./styled */ "./components/organisms/header/styled.js");
+
 
 
 
@@ -2612,10 +2672,14 @@ function (_Component) {
     key: "render",
     value: function render() {
       var titleH2 = this.props.titleH2;
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_11__["MenuContainer"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-10 left-area"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_molecules_menucontent__WEBPACK_IMPORTED_MODULE_10__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconbars__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconmap__WEBPACK_IMPORTED_MODULE_7__["default"], null)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-2 right-area"
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_12__["MenuContainer"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-xs-6 left-area"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "hidden-md"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconbars__WEBPACK_IMPORTED_MODULE_6__["default"], null)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconmap__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "hidden-xs"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_logo__WEBPACK_IMPORTED_MODULE_10__["default"], null)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_molecules_menucontent__WEBPACK_IMPORTED_MODULE_11__["default"], null)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col-xs-6 right-area"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconchevrondown__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh2__WEBPACK_IMPORTED_MODULE_9__["default"], {
         text: "Alex Doe"
       })));
@@ -2705,7 +2769,9 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_13__["BlockDefault"], {
-        className: "blockDefault"
+        className: "blockDefault col-md-4"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "blockContainer"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row bottomBorder"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -2732,7 +2798,7 @@ function (_React$Component) {
         text: "clojure"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
         text: "java"
-      })))));
+      }))))));
     }
   }]);
 
@@ -2834,13 +2900,15 @@ function (_React$Component) {
         clickedButton: this.close
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "col-xs-12 col-md-1"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__["FontAwesomeIcon"], {
         className: "icon",
         icon: ['fab', 'slack-hash']
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "row"
+        className: "col-xs-12 col-md-6"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h5", null, "Join the conversation on Slack"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", null, "Stay up to date on the latest news and special programs that only take place within the slack channel.")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "row"
+        className: "col-xs-12 col-md-3 btns"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "col"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
@@ -2853,7 +2921,7 @@ function (_React$Component) {
         href: "https://vanhackathon.slack.com",
         target: "_blank",
         title: "Join now"
-      }, "Join now"))));
+      }, "Join now")))));
     }
   }]);
 
@@ -2881,7 +2949,7 @@ __webpack_require__.r(__webpack_exports__);
 var BlockSlack = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "styled__BlockSlack",
   componentId: "sc-5cozm4-0"
-})(["border-radius:10px;background:linear-gradient(201.71deg,#8F9DF8 0%,#92A0FF 100%);box-shadow:0 26px 51px 0 rgba(0,0,0,0.08);padding:24px 16px;color:#fff;text-align:center;transition:opacity 0.3s;&.fade{opacity:0;}.icon{font-size:62px;}h5{font-weight:700;font-size:18px;line-height:25px;margin-bottom:16px;}p{opacity:0.75;font-size:13px;line-height:20px;margin-bottom:24px;}.btnCta{cursor:pointer;font-weight:500;font-size:14px;letter-spacing:1.75px;line-height:15px;box-sizing:border-box;border:1px solid #FFFFFF;border-radius:6px;text-transform:uppercase;padding:14px 18px;display:inline-block;margin:0 8px;&.active{color:#fff;background:#6574D6;border-color:#6574D6;text-decoration:none;}}"]);
+})(["border-radius:10px;background:linear-gradient(201.71deg,#8F9DF8 0%,#92A0FF 100%);box-shadow:0 26px 51px 0 rgba(0,0,0,0.08);padding:24px 16px;color:#fff;text-align:center;transition:opacity 0.3s;position:relative;@media (min-width:768px){text-align:left;padding:32px 48px;}&:after{content:\"\";clear:both;display:block;}&.fade{opacity:0;}.row{@media (min-width:768px){margin:0;display:flex;justify-content:flex-start;align-items:center;}}.icon{font-size:62px;}h5{font-weight:700;font-size:18px;line-height:25px;margin-bottom:16px;letter-spacing:0.75px;@media (min-width:768px){font-size:24px;}}p{opacity:0.75;font-size:13px;line-height:20px;margin-bottom:24px;letter-spacing:0.75px;@media (min-width:768px){margin-bottom:0;font-size:16px;line-height:24px;}}.btns{@media (min-width:768px){right:0;position:absolute;}}.btnCta{cursor:pointer;font-weight:500;font-size:14px;letter-spacing:1.75px;line-height:15px;box-sizing:border-box;border:1px solid #FFFFFF;border-radius:6px;text-transform:uppercase;display:inline-block;padding:14px 10px;margin:0 4px;@media (min-width:768px){padding:14px 18px;margin:0 6px;}&.active{color:#fff;background:#6574D6;border-color:#6574D6;text-decoration:none;}}"]);
 
 /***/ }),
 
@@ -2933,11 +3001,11 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_9__["BlockWithSection"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "sectionTitle"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-10"
+        className: "col-xs-7"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh2__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "Suggested Projects"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-2"
+        className: "col-xs-5"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_btnviewall__WEBPACK_IMPORTED_MODULE_7__["default"], null))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_molecules_userprojects__WEBPACK_IMPORTED_MODULE_6__["default"], null));
     }
   }]);
@@ -3018,14 +3086,16 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(TopEarners, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["BlockWithSection"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["BlockWithSection"], {
+        className: "col-md-4"
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "sectionTitle"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-10"
+        className: "col-xs-6"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh2__WEBPACK_IMPORTED_MODULE_9__["default"], {
         text: "Top Earners"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "col-xs-2"
+        className: "col-xs-`6"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_btnviewall__WEBPACK_IMPORTED_MODULE_8__["default"], null))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_molecules_userrankings__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);

@@ -11,32 +11,34 @@ import { BlockDefault } from './styled';
 class Ranking extends React.Component {
   render() {
     return (
-  		<BlockDefault className="blockDefault">
+  		<BlockDefault className="blockDefault col-md-4">
+  		
+	  		<div className="blockContainer">
+		      	<div className="row bottomBorder">
+			     	<div className="col-xs-6">
+		  				<TitleH5 text="Rank" />
+		  				<IconStar />
+		  				<NumberBigger text="607" />
 
-	      	<div className="row bottomBorder">
-		     	<div className="col-xs-6">
-	  				<TitleH5 text="Rank" />
-	  				<IconStar />
-	  				<NumberBigger text="607" />
-
-		     		<TextComp>You're in top <strong>40%</strong></TextComp>
+			     		<TextComp>You're in top <strong>40%</strong></TextComp>
+			     	</div>
+			     	<div className="col-xs-6">
+		  				<TitleH5 text="Projects" />
+		  				<IconBracket />
+		  				<NumberBigger text="45" />
+			     		<TextComp><strong>10</strong> in this month</TextComp>
+			     	</div>
 		     	</div>
-		     	<div className="col-xs-6">
-	  				<TitleH5 text="Projects" />
-	  				<IconBracket />
-	  				<NumberBigger text="45" />
-		     		<TextComp><strong>10</strong> in this month</TextComp>
-		     	</div>
-	     	</div>
 
-	      	<div className="row">
-	  			<TitleH5 text="Top Categories" />
-		    	<ul className="topCategories">
-		    		<li><TagDefault text="ruby" /></li>
-		    		<li><TagDefault text="clojure" /></li>
-		    		<li><TagDefault text="java" /></li>
-		    	</ul>	  
-	    	</div>	     	
+		      	<div className="row">
+		  			<TitleH5 text="Top Categories" />
+			    	<ul className="topCategories">
+			    		<li><TagDefault text="ruby" /></li>
+			    		<li><TagDefault text="clojure" /></li>
+			    		<li><TagDefault text="java" /></li>
+			    	</ul>	  
+		    	</div>	  	  
+	    	</div>	   	
 
 	    </BlockDefault>
     );

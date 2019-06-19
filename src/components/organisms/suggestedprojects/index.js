@@ -10,11 +10,11 @@ class Ranking extends React.Component {
     	<BlockWithSection>
 
 	  		<div className="sectionTitle">
-		     	<div className="col-xs-10">
+		     	<div className="col-xs-7">
 					<TitleH2 text="Suggested Projects" />
 				</div>
 
-		     	<div className="col-xs-2">
+		     	<div className="col-xs-5">
 		     		<BtnViewAll />
 		     	</div>
 			</div>

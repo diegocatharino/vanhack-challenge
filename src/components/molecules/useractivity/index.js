@@ -17,27 +17,29 @@ class UserActivity extends React.Component {
   render() {
     return (
     	<BlockDefault className="blockDefault">
+			
+			<div className="blockContainer">
+		      	<div className="row">
+					<TitleH5 text="Recent" />
+	      		</div>
 
-	      	<div className="row">
-				<TitleH5 text="Recent" />
-      		</div>
-
-			<div className="row">      		
-				<div className="col avatar">
-					<IconCode />
-					<ThumbAvatar className="avatarImg" src={myImg} />
-				</div>
-				<div className="col infos">
-					<div className="name">
-						<TextAvatar text="Alice Martin" />
-						<TextTime text="5 hours ago" />
+				<div className="row">      		
+					<div className="col avatar">
+						<IconCode />
+						<ThumbAvatar className="avatarImg" src={myImg} />
 					</div>
-			      	<TextDefault text="Recieved $760 for a Ruby project." />
-		     		<TagEth text="1.2 ETH" />
-		     		<NumberDefault text="$760" />
-				</div>
-	     	</div>
+					<div className="col infos">
+						<div className="name">
+							<TextAvatar text="Alice Martin" />
+							<TextTime text="5 hours ago" />
+						</div>
+				      	<TextDefault text="Recieved $760 for a Ruby project." />
+			     		<TagEth text="1.2 ETH" />
+			     		<NumberDefault text="$760" />
+					</div>
+		     	</div>
 
+    		</div>	    
 	    </BlockDefault>
     );
   }

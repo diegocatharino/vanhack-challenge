@@ -10,23 +10,25 @@ import { BlockDefault } from './styled';
 class Earnings extends React.Component {
   render() {
     return (
-    	<BlockDefault className="blockDefault">
+    	<BlockDefault className="blockDefault col-md-8">
+    	
+			<div className="blockContainer">
+		      	<div className="row">
+					<TitleH5 text="Earnings" />
+			    	<div className="chartContent">
+			    		<Chart />
+			    	</div>	  
+		    	</div>
 
-	      	<div className="row">
-				<TitleH5 text="Earnings" />
-		    	<div className="chartContent">
-		    		<Chart />
-		    	</div>	  
-	    	</div>
-
-	      	<div className="row">
-		     	<div className="col-xs-6 numbers">
-		     		<NumberBigger text="$2878.90" />
-		     		<TextComp> <strong>+42</strong> since last week </TextComp>
-		     	</div>
-		     	<div className="col-xs-6 tags">
-		     		<TagEth text="0.9087 ETH" />
-		     		<TagBtc text="0.5 BTC" />
+		      	<div className="row">
+			     	<div className="col-xs-6 numbers">
+			     		<NumberBigger text="$2878.90" />
+			     		<TextComp> <strong>+42</strong> since last week </TextComp>
+			     	</div>
+			     	<div className="col-xs-6 tags">
+			     		<TagEth text="0.9087 ETH" />
+			     		<TagBtc text="0.5 BTC" />
+			     	</div>
 		     	</div>
 	     	</div>
 

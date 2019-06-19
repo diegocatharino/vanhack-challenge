@@ -9,8 +9,26 @@ export const BlockSlack = styled.div`
 	color: #fff;
 	text-align: center;
 	transition: opacity 0.3s;
+	position: relative;
+	@media (min-width: 768px) {
+		text-align: left;
+		padding: 32px 48px;
+	}
+	&:after{
+	    content: "";
+	    clear: both;
+	    display: block;
+	}
 	&.fade{
 		opacity: 0;
+	}
+	.row{
+		@media (min-width: 768px) {
+	    	margin: 0;   
+	    	display: flex;
+    		justify-content: flex-start;
+    		align-items: center;
+		}
 	}
 	.icon{
 		font-size: 62px;
@@ -20,12 +38,28 @@ export const BlockSlack = styled.div`
 		font-size: 18px;
 		line-height: 25px;
 		margin-bottom: 16px;
+		letter-spacing: 0.75px;
+		@media (min-width: 768px) {
+			font-size: 24px;
+		}		
 	}
 	p{
 		opacity: 0.75;
 		font-size: 13px;
 		line-height: 20px;
 		margin-bottom: 24px;
+		letter-spacing: 0.75px;
+		@media (min-width: 768px) {
+			margin-bottom: 0;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+	.btns{
+		@media (min-width: 768px) {
+		    right: 0;
+    		position: absolute;
+		}
 	}
 	.btnCta{
 		cursor: pointer;
@@ -37,9 +71,13 @@ export const BlockSlack = styled.div`
 		border: 1px solid #FFFFFF;
 		border-radius: 6px;
 		text-transform: uppercase;
-		padding: 14px 18px;
 	    display: inline-block;
-	    margin: 0 8px;
+        padding: 14px 10px;
+		margin: 0 4px;
+		@media (min-width: 768px) {
+			padding: 14px 18px;
+	    	margin: 0 6px;
+		}
 		&.active{
 			color: #fff;
 			background: #6574D6;
