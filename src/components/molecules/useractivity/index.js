@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TagEth from '../../atoms/tageth';
 import TagBtc from '../../atoms/tagbtc';
+import IconCode from '../../atoms/iconcode';
 import TextTime from '../../atoms/texttime';
 import TitleH5 from '../../atoms/titleh5';
 import ThumbAvatar from '../../atoms/thumbavatar';
@@ -22,9 +23,9 @@ class UserActivity extends React.Component {
       		</div>
 
 			<div className="row">      		
-				<div className="col">
-					<FontAwesomeIcon icon="code" />
-					<ThumbAvatar src={myImg} />
+				<div className="col avatar">
+					<IconCode />
+					<ThumbAvatar className="avatarImg" src={myImg} />
 				</div>
 				<div className="col infos">
 					<div className="name">

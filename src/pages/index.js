@@ -7,10 +7,10 @@ import SuggestedProjects from '../components/organisms/suggestedprojects';
 import Activity from '../components/organisms/activity';
 import TopEarners from '../components/organisms/topearners';
 import Slack from '../components/organisms/slack';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faMapMarker, faStar, faBars, faChevronDown, faChevronLeft, faChevronRight, faArrowRight, faCode } from '@fortawesome/free-solid-svg-icons'
-
-library.add(faMapMarker, faStar, faBars, faChevronDown, faChevronLeft, faChevronRight, faArrowRight, faCode)
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faMapMarker, faStar, faBars, faChevronDown, faChevronLeft, faChevronRight, faArrowRight, faCode } from '@fortawesome/free-solid-svg-icons';
+library.add(fab, faMapMarker, faStar, faBars, faChevronDown, faChevronLeft, faChevronRight, faArrowRight, faCode)
 export default function Index() {
   return (
     <div>

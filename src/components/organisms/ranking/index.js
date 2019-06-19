@@ -18,13 +18,14 @@ class Ranking extends React.Component {
 	  				<TitleH5 text="Rank" />
 	  				<IconStar />
 	  				<NumberBigger text="607" />
-	  				<TextComp text="You're in top <strong>40</strong>" />
+
+		     		<TextComp>You're in top <strong>40%</strong></TextComp>
 		     	</div>
 		     	<div className="col-xs-6">
 	  				<TitleH5 text="Projects" />
 	  				<IconBracket />
 	  				<NumberBigger text="45" />
-	  				<TextComp text="<strong>10</strong> in this month" />
+		     		<TextComp><strong>10</strong> in this month</TextComp>
 		     	</div>
 	     	</div>
 
