@@ -7,4 +7,5 @@ export const IconBars = styled.button`
 	font-size: 21px;
 	color: #fff;
 	margin-right: 16px;
+	cursor: pointer;
 `;

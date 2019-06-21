@@ -2,6 +2,11 @@
 import styled from 'styled-components';
 
 export const BlockDefault = styled.div`
+	.blockContainer{
+		@media (min-width: 992px) {
+	    	max-height: 405px;	
+		}
+	}
 	.menu{
 		text{
 			float: right;
@@ -27,6 +32,9 @@ export const BlockDefault = styled.div`
 		vertical-align: top;
 		display: inline-block;
 		margin-left: 12px;
+		text {
+		    line-height: 20px;
+		}
 		.num{
 			color: #79828B;
 			font-size: 16px;

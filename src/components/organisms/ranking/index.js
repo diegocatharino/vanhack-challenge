@@ -15,14 +15,14 @@ class Ranking extends React.Component {
   		
 	  		<div className="blockContainer">
 		      	<div className="row bottomBorder">
-			     	<div className="col-xs-6">
+			     	<div className="col-xs-7 col-md-7 no-gutter">
 		  				<TitleH5 text="Rank" />
 		  				<IconStar />
 		  				<NumberBigger text="607" />
 
 			     		<TextComp>You're in top <strong>40%</strong></TextComp>
 			     	</div>
-			     	<div className="col-xs-6">
+			     	<div className="col-xs-5 col-md-5 no-gutter">
 		  				<TitleH5 text="Projects" />
 		  				<IconBracket />
 		  				<NumberBigger text="45" />
@@ -30,7 +30,7 @@ class Ranking extends React.Component {
 			     	</div>
 		     	</div>
 
-		      	<div className="row">
+		      	<div className="row no-margin-bottom">
 		  			<TitleH5 text="Top Categories" />
 			    	<ul className="topCategories">
 			    		<li><TagDefault text="ruby" /></li>

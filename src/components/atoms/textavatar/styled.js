@@ -7,5 +7,5 @@ export const TextAvatar = styled.text`
 	line-height: 25px;
 	letter-spacing: 0.75px;
 	display: block;
-	font-weight: 500;
+	font-weight: 600;
 `;

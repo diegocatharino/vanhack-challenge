@@ -1,4 +1,4 @@
-import React from "react";
+import Link from 'next/link';
 import UserActivity from '../../molecules/useractivity';
 import TitleH2 from '../../atoms/titleh2';
 import BtnViewAll from '../../atoms/btnviewall';
@@ -15,7 +15,9 @@ class Activity extends React.Component {
 				</div>
 
 		     	<div className="col-xs-6">
-		     		<BtnViewAll />
+				    <Link href="activity">
+				    	<a><BtnViewAll /></a>
+		     		</Link>
 		     	</div>
 			</div>
 

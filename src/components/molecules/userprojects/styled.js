@@ -2,6 +2,16 @@
 import styled from 'styled-components';
 
 export const BlockDefault = styled.div`
+	.map{
+		@media (min-width: 992px) {
+	    	width: 31.3%;	
+    	    display: inline-block;
+    	    margin-right: 3%;
+		}
+		&:last-child{
+			margin-right: 0;
+		}
+	}
 	.name{
 		display: inline-block;
 		margin-left: 12px;
@@ -10,12 +20,27 @@ export const BlockDefault = styled.div`
 	}
 	.number{
 		text{
-			float: right
+			float: right;
 		}
 	}	
 	.tag{
 		text{
-			float: right
+			float: right;
+		}
+	}
+	.tags{
+		text{
+			margin-right: 12px;
+		}
+		> div{
+			display: flex;
+		}
+		.number{
+			text{    
+				position: absolute;
+    			right: 0;
+    			margin-right: 0;
+			}
 		}
 	}
 `;

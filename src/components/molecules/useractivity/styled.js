@@ -2,6 +2,12 @@
 import styled from 'styled-components';
 
 export const BlockDefault = styled.div`
+	.blockContainer{
+		@media (min-width: 992px) {
+	    	max-height: 405px;	
+		}
+	}
+
 	.avatar{
 		vertical-align: top;
 		.avatarImg{
@@ -10,9 +16,21 @@ export const BlockDefault = styled.div`
 		    position: relative;
     		z-index: 2;
 		}
+
+		// mobile fix only
+		@media (max-width: 422px) {
+		    max-width: 38%;
+    		float: left;
+		}
+
+
+		@media (min-width: 992px) {
+			width: 88px;
+		}
 	}
 	.infos{
 		position: relative;
+		margin-bottom: 8px;
 		&:before{
 		    content: "";
 		    width: 1px;
@@ -25,6 +43,27 @@ export const BlockDefault = styled.div`
 		}
 		text{
 			margin-right: 16px;
+		}		
+		.textDefault{
+			padding-top: 2px;
+		}
+		.name{
+			position: relative;
+			.time{
+				@media (min-width: 992px) {
+				    position: absolute;
+				    right: 0;    
+				    top: 4px;
+				}
+			}
+		}
+		// mobile fix only
+		@media (max-width: 422px) {
+		    max-width: 62%;
+		}
+
+		@media (min-width: 992px) {
+			width: calc(100% - 88px);
 		}
 	}
 `;

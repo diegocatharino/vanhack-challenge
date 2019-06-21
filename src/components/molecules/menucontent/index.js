@@ -4,9 +4,25 @@ import Link from 'next/link';
 import { MenuContent } from './styled';
 
 const Menu = ( props ) => (
-  	<MenuContent>
+  	<MenuContent className="col-xs-12">
 	    <Link href="/">
-	      <a>Home</a>
+	      <a className="active">Home</a>
+	    </Link>
+
+	    <Link href="/projects">
+	      <a>My Projects</a>
+	    </Link>
+
+	    <Link href="/payments">
+	      <a>Payments</a>
+	    </Link>
+
+	    <Link href="/activity">
+	      <a>Activity</a>
+	    </Link>
+
+	    <Link href="/settings">
+	      <a>Settings</a>
 	    </Link>
   	</MenuContent>
 );

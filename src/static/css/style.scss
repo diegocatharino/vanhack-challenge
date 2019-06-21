@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* RESET */
 *{
@@ -25,6 +26,7 @@ body{
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     font-size: 14px;
     line-height: 1.42857143;
+    letter-spacing: 0.75px;
     color: #000;
     padding: 0 16px;
     &:before{
@@ -56,6 +58,17 @@ ul,li{
     display: block;
     clear: both;
     margin-bottom: 16px;
+    &:after{
+      clear:both;
+      content: "";
+      display: block;
+    }
+}
+.no-margin-bottom{
+  margin-bottom: 0;
+}
+.hidden{
+  display: none;
 }
 .col{
     display: inline-block;
@@ -217,12 +230,16 @@ ul,li{
   }
 }
 @media (min-width: 992px) {
+  #__next {
+      max-width: 1110px;
+      margin: 0 auto;
+  }
   .hidden-md{
     display: none;
   }
   .hidden-xs{
     display: inline;
-  } 
+  }
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -275,6 +292,12 @@ ul,li{
   .col-md-1 {
     width: 8.33333333%;
   }
+  .no-gutter{
+    padding: 0;
+  } 
+  .align-right-md{
+    float: right;
+  } 
 }
 @media (min-width: 1200px) {
   .col-lg-1,

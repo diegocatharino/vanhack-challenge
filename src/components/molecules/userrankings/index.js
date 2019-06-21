@@ -26,18 +26,73 @@ class UserRankings extends React.Component {
 		      		</div>
 	      		</div>
 
-		      	<div className="row bottomBorder">
-					<div className="col-xs-1">
-						<span className="order">1.</span>
-					</div>
-					<div className="col-xs-11">
-						<ThumbAvatar src={myImg} />
-						<div className="name">
-							<TextAvatar text="Alice Martin" />
-							<NumberDefault className="num" text="$760" />
+				<div className="map">
+
+			      	<div className="row bottomBorder">
+						<div className="col-xs-1">
+							<span className="order">1.</span>
 						</div>
-					</div>
-		     	</div>	     
+						<div className="col-xs-11">
+							<ThumbAvatar src={myImg} />
+							<div className="name">
+								<TextAvatar text="Alice Martin" />
+								<NumberDefault className="num" text="$760" />
+							</div>
+						</div>
+			     	</div>	 
+
+		     	</div>
+
+		     	{/* DELETE */}
+				<div className="map">
+
+			      	<div className="row bottomBorder">
+						<div className="col-xs-1">
+							<span className="order">1.</span>
+						</div>
+						<div className="col-xs-11">
+							<ThumbAvatar src={myImg} />
+							<div className="name">
+								<TextAvatar text="Alice Martin" />
+								<NumberDefault className="num" text="$760" />
+							</div>
+						</div>
+			     	</div>	 
+			     	    
+		     	</div>		     	
+				<div className="map">
+
+			      	<div className="row bottomBorder">
+						<div className="col-xs-1">
+							<span className="order">1.</span>
+						</div>
+						<div className="col-xs-11">
+							<ThumbAvatar src={myImg} />
+							<div className="name">
+								<TextAvatar text="Alice Martin" />
+								<NumberDefault className="num" text="$760" />
+							</div>
+						</div>
+			     	</div>	 
+			     	    
+		     	</div>
+				<div className="map">
+
+			      	<div className="row bottomBorder">
+						<div className="col-xs-1">
+							<span className="order">1.</span>
+						</div>
+						<div className="col-xs-11">
+							<ThumbAvatar src={myImg} />
+							<div className="name">
+								<TextAvatar text="Alice Martin" />
+								<NumberDefault className="num" text="$760" />
+							</div>
+						</div>
+			     	</div>	 
+			     	    
+		     	</div>		     			     	
+		     	{/* DELETE */}
 
 	     	</div>
 	    </BlockDefault>

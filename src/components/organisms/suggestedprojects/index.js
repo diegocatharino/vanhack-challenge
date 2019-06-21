@@ -1,13 +1,14 @@
-import React from "react";
+import Link from 'next/link';
 import UserProjects from '../../molecules/userprojects';
 import BtnViewAll from '../../atoms/btnviewall';
 import TitleH2 from '../../atoms/titleh2';
 import { BlockWithSection } from './styled';
 
 class Ranking extends React.Component {
+
   render() {
     return (
-    	<BlockWithSection>
+    	<BlockWithSection className="col-md-12">
 
 	  		<div className="sectionTitle">
 		     	<div className="col-xs-7">
@@ -15,7 +16,9 @@ class Ranking extends React.Component {
 				</div>
 
 		     	<div className="col-xs-5">
-		     		<BtnViewAll />
+				    <Link href="projects">
+				    	<a><BtnViewAll /></a>
+		     		</Link>
 		     	</div>
 			</div>
 
@@ -26,4 +29,4 @@ class Ranking extends React.Component {
   }
 }
 
-export default(Ranking);
+export default (Ranking);

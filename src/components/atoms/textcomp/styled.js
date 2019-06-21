@@ -7,6 +7,11 @@ export const TextComp = styled.text`
 	line-height: 21px;
 	letter-spacing: 0.75px;
 	display: block;
+	//specific fix for small devices
+	@media (max-width: 340px) {
+		letter-spacing: 0;
+	    font-size: 13px;
+	}
 	strong{
 		color: #10C172;
 	}

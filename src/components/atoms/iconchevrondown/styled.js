@@ -9,6 +9,7 @@ export const IconChevronDown = styled.button`
 	margin-left: 8px;
 	background: #5A6ABC;
 	border-radius: 50px;
+	cursor: pointer;
 	span{
 		color: #fff;    
 		margin-top: 3px;

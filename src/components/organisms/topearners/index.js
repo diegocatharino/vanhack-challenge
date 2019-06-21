@@ -1,4 +1,4 @@
-import React from "react";
+import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import UserRankings from '../../molecules/userrankings';
 import BtnViewAll from '../../atoms/btnviewall';
@@ -16,8 +16,10 @@ class TopEarners extends React.Component {
 				</div>
 
 		     	<div className="col-xs-`6">
-		     		<BtnViewAll />
-		     	</div>
+				    <Link href="payments">
+				    	<a><BtnViewAll /></a>
+		     		</Link>		     	
+	     		</div>
 			</div>
 
 			<UserRankings />	  	
