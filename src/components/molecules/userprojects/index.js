@@ -12,110 +12,68 @@ import TextBigger from '../../atoms/textbigger';
 import { BlockDefault } from './styled';
 import myImg from '../../../static/images/thumbavatar-default.png';
 
+const API = `static/api/projects.json`;
+
 class UserProjects extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      data: [],
+    };
+  }
+ 
+  componentDidMount() {
+    //calling the content api
+    fetch(API)
+      .then(response => response.json())
+      .then(result => this.setState({ 
+        data: result.data 
+      }));
+  }
+
   render() {
+    const { data } = this.state;
     return (
     	<BlockDefault className="blockDefault">
-    		<div className="map">
-				<div className="blockContainer">
-			      	<div className="row">
-						<div className="col-xs-10">
-							<LazyLoad height={48} width={48}>
-								<ThumbAvatar src={myImg} />
-						  	</LazyLoad>
-							<div className="name">
-								<TextAvatar text="Alice Martin" />
-								<TextTime text="5 hours ago" />
+
+            {data.map((item, key) => {
+          	  return(
+	    		<div className="map" key={key}>
+					<div className="blockContainer">
+				      	<div className="row">
+							<div className="col-xs-10">
+								<LazyLoad height={48} width={48}>
+									<ThumbAvatar src={item.avatar} />
+							  	</LazyLoad>
+								<div className="name">
+									<TextAvatar text={item.name} />
+									<TextTime text={item.date} />
+								</div>
 							</div>
-						</div>
-						<div className="col-xs-2 tag">
-							<TagDefault text="ruby" />
-						</div>
-			     	</div>
-
-			      	<div className="row bottomBorder">
-			      		<TextBigger text="Design and develop a website for an educational platform focusing on the growth of children." />  	
-			     	</div>
-
-			      	<div className="row tags">
-				     	<div className="col-xs-10">
-				     		<TagEth text="1.2 ETH" />
-				     		<TagBtc text="0.3 BTC" />
-				     	</div>  
-				     	<div className="col-xs-2 number">
-				     		<NumberDefault text="$760" />
-				     	</div>  
-			    	</div>	  
-		    	</div>	       
-	    	</div>
-
-	     	{/* DELETE */}
-    		<div className="map">
-				<div className="blockContainer">
-			      	<div className="row">
-						<div className="col-xs-10">
-							<LazyLoad height={48} width={48}>
-								<ThumbAvatar src={myImg} />
-						  	</LazyLoad>
-							<div className="name">
-								<TextAvatar text="Alice Martin" />
-								<TextTime text="5 hours ago" />
+							<div className="col-xs-2 tag">
+								<TagDefault text={item.tag} />
 							</div>
-						</div>
-						<div className="col-xs-2 tag">
-							<TagDefault text="ruby" />
-						</div>
-			     	</div>
+				     	</div>
 
-			      	<div className="row bottomBorder">
-			      		<TextBigger text="Design and develop a website for an educational platform focusing on the growth of children." />  	
-			     	</div>
+				      	<div className="row bottomBorder">
+				      		<TextBigger text={item.text} />  	
+				     	</div>
 
-			      	<div className="row tags">
-				     	<div className="col-xs-10">
-				     		<TagEth text="1.2 ETH" />
-				     		<TagBtc text="0.3 BTC" />
-				     	</div>  
-				     	<div className="col-xs-2 number">
-				     		<NumberDefault text="$760" />
-				     	</div>  
-			    	</div>	  
-		    	</div>	       
-	    	</div>
-    		<div className="map">
-				<div className="blockContainer">
-			      	<div className="row">
-						<div className="col-xs-10">
-							<LazyLoad height={48} width={48}>
-								<ThumbAvatar src={myImg} />
-						  	</LazyLoad>
-							<div className="name">
-								<TextAvatar text="Alice Martin" />
-								<TextTime text="5 hours ago" />
-							</div>
-						</div>
-						<div className="col-xs-2 tag">
-							<TagDefault text="ruby" />
-						</div>
-			     	</div>
-
-			      	<div className="row bottomBorder">
-			      		<TextBigger text="Design and develop a website for an educational platform focusing on the growth of children." />  	
-			     	</div>
-
-			      	<div className="row tags">
-				     	<div className="col-xs-10">
-				     		<TagEth text="1.2 ETH" />
-				     		<TagBtc text="0.3 BTC" />
-				     	</div>  
-				     	<div className="col-xs-2 number">
-				     		<NumberDefault text="$760" />
-				     	</div>  
-			    	</div>	  
-		    	</div>	       
-	    	</div>
-	     	{/* DELETE */}
-
+				      	<div className="row tags">
+					     	<div className="col-xs-10">
+					     		<TagEth text={item.eth} />
+					     		<TagBtc text={item.btc} />
+					     	</div>  
+					     	<div className="col-xs-2 number">
+					     		<NumberDefault text={item.earnings} />
+					     	</div>  
+				    	</div>	  
+			    	</div>	       
+		    	</div>
+        	)})}	
+	    
 	    </BlockDefault>
     );
   }

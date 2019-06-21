@@ -42,4 +42,17 @@ export const BlockDefault = styled.div`
 			line-height: 25px;
 		}
 	}
+	img{
+		max-height: 48px;
+		max-width: 48px;
+	}
+	.map{
+		&:last-child{
+			.row.bottomBorder{
+				border-bottom: none;
+				padding-bottom:0;
+    			margin-bottom: 0;
+			}
+		}
+	}
 `;

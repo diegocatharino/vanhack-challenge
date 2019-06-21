@@ -43,4 +43,8 @@ export const BlockDefault = styled.div`
 			}
 		}
 	}
+	img{
+		max-width: 48px;
+		max-height: 48px;
+	}
 `;

@@ -40,6 +40,9 @@ body {
 .LazyLoad {
   display: inline-block; }
 
+svg {
+  font-size: 12px; }
+
 /* LIST */
 ul, li {
   list-style: none; }

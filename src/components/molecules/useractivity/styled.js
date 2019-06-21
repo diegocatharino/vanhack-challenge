@@ -15,6 +15,10 @@ export const BlockDefault = styled.div`
 			margin-right: 16px;
 		    position: relative;
     		z-index: 2;
+    		img{
+    			max-height: 48px;
+    			max-width: 48px;
+    		}
 		}
 
 		// mobile fix only

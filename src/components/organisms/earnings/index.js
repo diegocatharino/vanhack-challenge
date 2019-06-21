@@ -28,7 +28,7 @@ class Earnings extends React.Component {
 			     	<div className="col-xs-12 col-md-3 no-gutter">
 				     	<div className="col-xs-7 col-md-12 no-gutter numbers">
 				     		<NumberBigger text="$2878.90" />
-				     		<TextComp> <strong>+42</strong> since last week </TextComp>
+				     		<TextComp><strong>+42</strong> since last week</TextComp>
 				     	</div>
 				     	<div className="col-xs-5 col-md-12 no-gutter tags">
 				     		<TagEth text="0.9087 ETH" />

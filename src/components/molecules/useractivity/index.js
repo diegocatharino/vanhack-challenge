@@ -15,8 +15,29 @@ import NumberDefault from '../../atoms/numberdefault';
 import { BlockDefault } from './styled';
 import myImg from '../../../static/images/thumbavatar-default.png';
 
+const API = `static/api/activity.json`;
+
 class UserActivity extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      data: [],
+    };
+  }
+ 
+  componentDidMount() {
+    //calling the content api
+    fetch(API)
+      .then(response => response.json())
+      .then(result => this.setState({ 
+        data: result.data 
+      }));
+  }
+
   render() {
+    const { data } = this.state;
     return (
     	<BlockDefault className="blockDefault">
 			
@@ -25,67 +46,31 @@ class UserActivity extends React.Component {
 					<TitleH5 text="Recent" />
 	      		</div>
 
-	      		<div className="map">
-					<div className="row">      		
-						<div className="col avatar">
-							<IconCode />
-							<LazyLoad height={48} width={48}>
-								<ThumbAvatar className="avatarImg" src={myImg} />
-						  	</LazyLoad>
-						</div>
-						<div className="col infos">
-							<div className="name">
-								<TextAvatar text="Alice Martin" />
-								<TextTime className="time" text="5 hours ago" />
-							</div>
-					      	<TextDefault className="textDefault" text="Recieved $760 for a Ruby project." />
-				     		<TagEth text="1.2 ETH" />
-				     		<NumberDefault text="$760" />
-						</div>
-			     	</div>
-		     	</div>
+	            {data.map((item, key) => {
+	              return(
+					<div className="map" key={key}>
 
-		     	{/* DELETE */}
-	      		<div className="map">
-					<div className="row">      		
-						<div className="col avatar">
-							<IconDollar />
-							<LazyLoad height={48} width={48}>
-								<ThumbAvatar className="avatarImg" src={myImg} />
-						  	</LazyLoad>
-						</div>
-						<div className="col infos">
-							<div className="name">
-								<TextAvatar text="Alice Martin" />
-								<TextTime className="time" text="5 hours ago" />
+						<div className="row">      		
+							<div className="col avatar">
+					     		{(item.icon === "code") ? <IconCode /> : <IconDollar />}
+								
+								<LazyLoad height={48} width={48}>
+									<ThumbAvatar className="avatarImg" src={item.avatar} />
+							  	</LazyLoad>
 							</div>
-					      	<TextDefault className="textDefault" text="Recieved $760 for a Ruby project." />
-				     		<TagEth text="1.2 ETH" />
-				     		<NumberDefault text="$760" />
-						</div>
-			     	</div>
-		     	</div>	      		
-		     	<div className="map">
-					<div className="row">      		
-						<div className="col avatar">
-							<IconCode />
-							<LazyLoad height={48} width={48}>
-								<ThumbAvatar className="avatarImg" src={myImg} />
-						  	</LazyLoad>
-							
-						</div>
-						<div className="col infos">
-							<div className="name">
-								<TextAvatar text="Alice Martin" />
-								<TextTime className="time" text="5 hours ago" />
+							<div className="col infos">
+								<div className="name">
+									<TextAvatar text={item.name} />
+									<TextTime className="time" text={item.date} />
+								</div>
+						      	<TextDefault className="textDefault" text={item.text} />
+					     		{(item.btc === "") ? <TagEth text={item.eth} /> : <TagBtc text={item.btc} />}
+					     		<NumberDefault text={item.earnings} />
 							</div>
-					      	<TextDefault className="textDefault" text="Recieved $760 for a Ruby project." />
-				     		<TagEth text="1.2 ETH" />
-				     		<NumberDefault text="$760" />
-						</div>
+				     	</div>
+
 			     	</div>
-		     	</div>
-		     	{/* DELETE */}
+            	)})}	
 
     		</div>	    
 	    </BlockDefault>
