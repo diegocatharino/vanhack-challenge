@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazy-load';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { BlockSlack } from './styled';
 
@@ -23,7 +24,9 @@ class Slack extends React.Component {
   			<div className="blockSlackContainer">
 		      	<div className="row">
 		      		<div className="col-xs-12 col-md-1">
-		      	    	<FontAwesomeIcon className="icon" icon={['fab', 'slack-hash']} />
+						<LazyLoad>
+		  					<FontAwesomeIcon className="icon" icon={['fab', 'slack-hash']} />
+					  	</LazyLoad>	
 		      	    </div>
 		      		<div className="col-xs-12 col-md-6">
 		  				<h5>Join the conversation on Slack</h5>

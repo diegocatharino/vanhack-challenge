@@ -15,7 +15,7 @@ export const MenuContainer = styled.div`
 		clear: both;
 	}
 	.right-area{
-		button, text{
+		button, text, .LazyLoad{
 			float: right;
 		}
 		text{

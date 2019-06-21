@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import LazyLoad from 'react-lazy-load';
 // Import Style
 import { BtnViewAll } from './styled';
 

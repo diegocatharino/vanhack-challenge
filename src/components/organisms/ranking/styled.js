@@ -17,4 +17,7 @@ export const BlockDefault = styled.div`
 	    	display: block;
 	    }
 	}
+	.LazyLoad{
+		margin-right: 8px;
+	}
 `;

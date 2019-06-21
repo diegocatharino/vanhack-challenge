@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazy-load';
 import TagEth from '../../atoms/tageth';
 import TagBtc from '../../atoms/tagbtc';
 import TitleH5 from '../../atoms/titleh5';
@@ -33,7 +34,9 @@ class UserRankings extends React.Component {
 							<span className="order">1.</span>
 						</div>
 						<div className="col-xs-11">
-							<ThumbAvatar src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar src={myImg} />
+						  	</LazyLoad>
 							<div className="name">
 								<TextAvatar text="Alice Martin" />
 								<NumberDefault className="num" text="$760" />
@@ -51,7 +54,9 @@ class UserRankings extends React.Component {
 							<span className="order">1.</span>
 						</div>
 						<div className="col-xs-11">
-							<ThumbAvatar src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar src={myImg} />
+						  	</LazyLoad>
 							<div className="name">
 								<TextAvatar text="Alice Martin" />
 								<NumberDefault className="num" text="$760" />
@@ -67,7 +72,9 @@ class UserRankings extends React.Component {
 							<span className="order">1.</span>
 						</div>
 						<div className="col-xs-11">
-							<ThumbAvatar src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar src={myImg} />
+						  	</LazyLoad>
 							<div className="name">
 								<TextAvatar text="Alice Martin" />
 								<NumberDefault className="num" text="$760" />
@@ -83,7 +90,9 @@ class UserRankings extends React.Component {
 							<span className="order">1.</span>
 						</div>
 						<div className="col-xs-11">
-							<ThumbAvatar src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar src={myImg} />
+						  	</LazyLoad>
 							<div className="name">
 								<TextAvatar text="Alice Martin" />
 								<NumberDefault className="num" text="$760" />

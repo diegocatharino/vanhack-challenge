@@ -952,14 +952,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styled */ "./components/atoms/btnviewall/styled.js");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-lazy-load */ "react-lazy-load");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_lazy_load__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styled */ "./components/atoms/btnviewall/styled.js");
+
 
  // Import Style
 
 
 
 var Button = function Button(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_2__["BtnViewAll"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "View All"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["BtnViewAll"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "View All"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
     icon: "arrow-right"
   }));
 };
@@ -1106,18 +1109,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styled */ "./components/atoms/iconchevrondown/styled.js");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-lazy-load */ "react-lazy-load");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_lazy_load__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styled */ "./components/atoms/iconchevrondown/styled.js");
+
 
  // Import Style
 
 
 
 var Button = function Button(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_2__["IconChevronDown"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["IconChevronDown"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
     icon: "chevron-down"
-  })));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Button);
@@ -2314,21 +2320,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "../node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _atoms_tageth__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../atoms/tageth */ "./components/atoms/tageth/index.js");
-/* harmony import */ var _atoms_tagbtc__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/tagbtc */ "./components/atoms/tagbtc/index.js");
-/* harmony import */ var _atoms_iconcode__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/iconcode */ "./components/atoms/iconcode/index.js");
-/* harmony import */ var _atoms_icondollar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/icondollar */ "./components/atoms/icondollar/index.js");
-/* harmony import */ var _atoms_texttime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../atoms/texttime */ "./components/atoms/texttime/index.js");
-/* harmony import */ var _atoms_titleh5__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/titleh5 */ "./components/atoms/titleh5/index.js");
-/* harmony import */ var _atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../atoms/thumbavatar */ "./components/atoms/thumbavatar/index.js");
-/* harmony import */ var _atoms_textavatar__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../atoms/textavatar */ "./components/atoms/textavatar/index.js");
-/* harmony import */ var _atoms_textdefault__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../atoms/textdefault */ "./components/atoms/textdefault/index.js");
-/* harmony import */ var _atoms_numberdefault__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../atoms/numberdefault */ "./components/atoms/numberdefault/index.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./styled */ "./components/molecules/useractivity/styled.js");
-/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../static/images/thumbavatar-default.png */ "./static/images/thumbavatar-default.png");
-/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-lazy-load */ "react-lazy-load");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_lazy_load__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _atoms_tageth__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/tageth */ "./components/atoms/tageth/index.js");
+/* harmony import */ var _atoms_tagbtc__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/tagbtc */ "./components/atoms/tagbtc/index.js");
+/* harmony import */ var _atoms_iconcode__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/iconcode */ "./components/atoms/iconcode/index.js");
+/* harmony import */ var _atoms_icondollar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../atoms/icondollar */ "./components/atoms/icondollar/index.js");
+/* harmony import */ var _atoms_texttime__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/texttime */ "./components/atoms/texttime/index.js");
+/* harmony import */ var _atoms_titleh5__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../atoms/titleh5 */ "./components/atoms/titleh5/index.js");
+/* harmony import */ var _atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../atoms/thumbavatar */ "./components/atoms/thumbavatar/index.js");
+/* harmony import */ var _atoms_textavatar__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../atoms/textavatar */ "./components/atoms/textavatar/index.js");
+/* harmony import */ var _atoms_textdefault__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../atoms/textdefault */ "./components/atoms/textdefault/index.js");
+/* harmony import */ var _atoms_numberdefault__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../atoms/numberdefault */ "./components/atoms/numberdefault/index.js");
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./styled */ "./components/molecules/useractivity/styled.js");
+/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../static/images/thumbavatar-default.png */ "./static/images/thumbavatar-default.png");
+/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_19__);
+
 
 
 
@@ -2364,13 +2373,13 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(UserActivity, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_17__["BlockDefault"], {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_18__["BlockDefault"], {
         className: "blockDefault"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "blockContainer"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_13__["default"], {
         text: "Recent"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "map"
@@ -2378,24 +2387,27 @@ function (_React$Component) {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col avatar"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconcode__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconcode__WEBPACK_IMPORTED_MODULE_10__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_14__["default"], {
         className: "avatarImg",
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_18___default.a
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_19___default.a
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col infos"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_15__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_12__["default"], {
         className: "time",
         text: "5 hours ago"
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textdefault__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textdefault__WEBPACK_IMPORTED_MODULE_16__["default"], {
         className: "textDefault",
         text: "Recieved $760 for a Ruby project."
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "1.2 ETH"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_16__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_17__["default"], {
         text: "$760"
       })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "map"
@@ -2403,24 +2415,27 @@ function (_React$Component) {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col avatar"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_icondollar__WEBPACK_IMPORTED_MODULE_10__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_icondollar__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_14__["default"], {
         className: "avatarImg",
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_18___default.a
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_19___default.a
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col infos"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_15__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_12__["default"], {
         className: "time",
         text: "5 hours ago"
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textdefault__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textdefault__WEBPACK_IMPORTED_MODULE_16__["default"], {
         className: "textDefault",
         text: "Recieved $760 for a Ruby project."
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "1.2 ETH"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_16__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_17__["default"], {
         text: "$760"
       })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "map"
@@ -2428,24 +2443,27 @@ function (_React$Component) {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col avatar"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconcode__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconcode__WEBPACK_IMPORTED_MODULE_10__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_14__["default"], {
         className: "avatarImg",
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_18___default.a
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_19___default.a
+      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col infos"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_15__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_12__["default"], {
         className: "time",
         text: "5 hours ago"
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textdefault__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textdefault__WEBPACK_IMPORTED_MODULE_16__["default"], {
         className: "textDefault",
         text: "Recieved $760 for a Ruby project."
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "1.2 ETH"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_16__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_17__["default"], {
         text: "$760"
       }))))));
     }
@@ -2495,17 +2513,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "../node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _atoms_tageth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../atoms/tageth */ "./components/atoms/tageth/index.js");
-/* harmony import */ var _atoms_tagbtc__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../atoms/tagbtc */ "./components/atoms/tagbtc/index.js");
-/* harmony import */ var _atoms_tagdefault__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/tagdefault */ "./components/atoms/tagdefault/index.js");
-/* harmony import */ var _atoms_texttime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/texttime */ "./components/atoms/texttime/index.js");
-/* harmony import */ var _atoms_numberdefault__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/numberdefault */ "./components/atoms/numberdefault/index.js");
-/* harmony import */ var _atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../atoms/thumbavatar */ "./components/atoms/thumbavatar/index.js");
-/* harmony import */ var _atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/textavatar */ "./components/atoms/textavatar/index.js");
-/* harmony import */ var _atoms_textbigger__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../atoms/textbigger */ "./components/atoms/textbigger/index.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./styled */ "./components/molecules/userprojects/styled.js");
-/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../static/images/thumbavatar-default.png */ "./static/images/thumbavatar-default.png");
-/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-lazy-load */ "react-lazy-load");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_lazy_load__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _atoms_tageth__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../atoms/tageth */ "./components/atoms/tageth/index.js");
+/* harmony import */ var _atoms_tagbtc__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/tagbtc */ "./components/atoms/tagbtc/index.js");
+/* harmony import */ var _atoms_tagdefault__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/tagdefault */ "./components/atoms/tagdefault/index.js");
+/* harmony import */ var _atoms_texttime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/texttime */ "./components/atoms/texttime/index.js");
+/* harmony import */ var _atoms_numberdefault__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../atoms/numberdefault */ "./components/atoms/numberdefault/index.js");
+/* harmony import */ var _atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/thumbavatar */ "./components/atoms/thumbavatar/index.js");
+/* harmony import */ var _atoms_textavatar__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../atoms/textavatar */ "./components/atoms/textavatar/index.js");
+/* harmony import */ var _atoms_textbigger__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../atoms/textbigger */ "./components/atoms/textbigger/index.js");
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./styled */ "./components/molecules/userprojects/styled.js");
+/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../static/images/thumbavatar-default.png */ "./static/images/thumbavatar-default.png");
+/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_16__);
+
 
 
 
@@ -2538,7 +2559,7 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(UserProjects, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_14__["BlockDefault"], {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_15__["BlockDefault"], {
         className: "blockDefault"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "map"
@@ -2548,33 +2569,36 @@ function (_React$Component) {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-10"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_15___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_16___default.a
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_13__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_10__["default"], {
         text: "5 hours ago"
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-2 tag"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_9__["default"], {
         text: "ruby"
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row bottomBorder"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textbigger__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textbigger__WEBPACK_IMPORTED_MODULE_14__["default"], {
         text: "Design and develop a website for an educational platform focusing on the growth of children."
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row tags"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-10"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_7__["default"], {
         text: "1.2 ETH"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagbtc__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagbtc__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "0.3 BTC"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-2 number"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_11__["default"], {
         text: "$760"
       }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "map"
@@ -2584,33 +2608,36 @@ function (_React$Component) {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-10"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_15___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_16___default.a
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_13__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_10__["default"], {
         text: "5 hours ago"
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-2 tag"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_9__["default"], {
         text: "ruby"
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row bottomBorder"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textbigger__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textbigger__WEBPACK_IMPORTED_MODULE_14__["default"], {
         text: "Design and develop a website for an educational platform focusing on the growth of children."
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row tags"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-10"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_7__["default"], {
         text: "1.2 ETH"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagbtc__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagbtc__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "0.3 BTC"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-2 number"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_11__["default"], {
         text: "$760"
       }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "map"
@@ -2620,33 +2647,36 @@ function (_React$Component) {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-10"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_15___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_16___default.a
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_13__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_10__["default"], {
         text: "5 hours ago"
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-2 tag"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_9__["default"], {
         text: "ruby"
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row bottomBorder"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textbigger__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textbigger__WEBPACK_IMPORTED_MODULE_14__["default"], {
         text: "Design and develop a website for an educational platform focusing on the growth of children."
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row tags"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-10"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tageth__WEBPACK_IMPORTED_MODULE_7__["default"], {
         text: "1.2 ETH"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagbtc__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagbtc__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "0.3 BTC"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-2 number"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_11__["default"], {
         text: "$760"
       }))))));
     }
@@ -2696,16 +2726,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "../node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _atoms_tageth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../atoms/tageth */ "./components/atoms/tageth/index.js");
-/* harmony import */ var _atoms_tagbtc__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../atoms/tagbtc */ "./components/atoms/tagbtc/index.js");
-/* harmony import */ var _atoms_titleh5__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/titleh5 */ "./components/atoms/titleh5/index.js");
-/* harmony import */ var _atoms_texttime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/texttime */ "./components/atoms/texttime/index.js");
-/* harmony import */ var _atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/thumbavatar */ "./components/atoms/thumbavatar/index.js");
-/* harmony import */ var _atoms_textavatar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../atoms/textavatar */ "./components/atoms/textavatar/index.js");
-/* harmony import */ var _atoms_numberdefault__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/numberdefault */ "./components/atoms/numberdefault/index.js");
-/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../static/images/thumbavatar-default.png */ "./static/images/thumbavatar-default.png");
-/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./styled */ "./components/molecules/userrankings/styled.js");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-lazy-load */ "react-lazy-load");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_lazy_load__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _atoms_tageth__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../atoms/tageth */ "./components/atoms/tageth/index.js");
+/* harmony import */ var _atoms_tagbtc__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/tagbtc */ "./components/atoms/tagbtc/index.js");
+/* harmony import */ var _atoms_titleh5__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/titleh5 */ "./components/atoms/titleh5/index.js");
+/* harmony import */ var _atoms_texttime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/texttime */ "./components/atoms/texttime/index.js");
+/* harmony import */ var _atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../atoms/thumbavatar */ "./components/atoms/thumbavatar/index.js");
+/* harmony import */ var _atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/textavatar */ "./components/atoms/textavatar/index.js");
+/* harmony import */ var _atoms_numberdefault__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../atoms/numberdefault */ "./components/atoms/numberdefault/index.js");
+/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../static/images/thumbavatar-default.png */ "./static/images/thumbavatar-default.png");
+/* harmony import */ var _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./styled */ "./components/molecules/userrankings/styled.js");
+
 
 
 
@@ -2737,7 +2770,7 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(UserRankings, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_14__["BlockDefault"], {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_15__["BlockDefault"], {
         className: "blockDefault"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "blockContainer"
@@ -2745,14 +2778,14 @@ function (_React$Component) {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-4"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_9__["default"], {
         text: "Rankings"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-8 menu"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_10__["default"], {
         className: "active",
         text: "All time"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_texttime__WEBPACK_IMPORTED_MODULE_10__["default"], {
         text: "This month"
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "map"
@@ -2764,13 +2797,16 @@ function (_React$Component) {
         className: "order"
       }, "1.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-11"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_13___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_14___default.a
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_13__["default"], {
         className: "num",
         text: "$760"
       }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -2783,13 +2819,16 @@ function (_React$Component) {
         className: "order"
       }, "1.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-11"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_13___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_14___default.a
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_13__["default"], {
         className: "num",
         text: "$760"
       }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -2802,13 +2841,16 @@ function (_React$Component) {
         className: "order"
       }, "1.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-11"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_13___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_14___default.a
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_13__["default"], {
         className: "num",
         text: "$760"
       }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -2821,13 +2863,16 @@ function (_React$Component) {
         className: "order"
       }, "1.")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-11"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_13___default.a
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 48,
+        width: 48
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_thumbavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        src: _static_images_thumbavatar_default_png__WEBPACK_IMPORTED_MODULE_14___default.a
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "name"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textavatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
         text: "Alice Martin"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberdefault__WEBPACK_IMPORTED_MODULE_13__["default"], {
         className: "num",
         text: "$760"
       })))))));
@@ -3217,7 +3262,7 @@ __webpack_require__.r(__webpack_exports__);
 var MenuContainer = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "styled__MenuContainer",
   componentId: "jijuym-0"
-})(["padding-top:16px;padding-bottom:16px;@media (min-width:768px){padding-top:40px;padding-bottom:40px;}&:after{content:\"\";display:block;clear:both;}.right-area{button,text{float:right;}text{color:#fff;}.userBox{position:absolute;right:0;top:22px;background:#fff;border-radius:0px 0 8px 8px;padding:8px;color:#6473d5;z-index:2;li{border-bottom:1px solid #ccc;margin-bottom:8px;padding-bottom:8px;&:last-child{padding-bottom:0;border-bottom:none;margin-bottom:0;}a{color:#6473d5;text-decoration:none;&:hover{color:#42505C;}}}}}.notification{position:relative;top:-6px;margin-right:40px;}.show,.show .menu{display:block;}@media (min-width:992px){.close{display:none;}}"]);
+})(["padding-top:16px;padding-bottom:16px;@media (min-width:768px){padding-top:40px;padding-bottom:40px;}&:after{content:\"\";display:block;clear:both;}.right-area{button,text,.LazyLoad{float:right;}text{color:#fff;}.userBox{position:absolute;right:0;top:22px;background:#fff;border-radius:0px 0 8px 8px;padding:8px;color:#6473d5;z-index:2;li{border-bottom:1px solid #ccc;margin-bottom:8px;padding-bottom:8px;&:last-child{padding-bottom:0;border-bottom:none;margin-bottom:0;}a{color:#6473d5;text-decoration:none;&:hover{color:#42505C;}}}}}.notification{position:relative;top:-6px;margin-right:40px;}.show,.show .menu{display:block;}@media (min-width:992px){.close{display:none;}}"]);
 
 /***/ }),
 
@@ -3237,15 +3282,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "../node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _atoms_titleh5__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../atoms/titleh5 */ "./components/atoms/titleh5/index.js");
-/* harmony import */ var _atoms_iconbracket__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/iconbracket */ "./components/atoms/iconbracket/index.js");
-/* harmony import */ var _atoms_iconstar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/iconstar */ "./components/atoms/iconstar/index.js");
-/* harmony import */ var _atoms_numberbigger__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/numberbigger */ "./components/atoms/numberbigger/index.js");
-/* harmony import */ var _atoms_textcomp__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../atoms/textcomp */ "./components/atoms/textcomp/index.js");
-/* harmony import */ var _atoms_tagdefault__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/tagdefault */ "./components/atoms/tagdefault/index.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./styled */ "./components/organisms/ranking/styled.js");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-lazy-load */ "react-lazy-load");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_lazy_load__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _atoms_titleh5__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../atoms/titleh5 */ "./components/atoms/titleh5/index.js");
+/* harmony import */ var _atoms_iconbracket__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../atoms/iconbracket */ "./components/atoms/iconbracket/index.js");
+/* harmony import */ var _atoms_iconstar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../atoms/iconstar */ "./components/atoms/iconstar/index.js");
+/* harmony import */ var _atoms_numberbigger__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../atoms/numberbigger */ "./components/atoms/numberbigger/index.js");
+/* harmony import */ var _atoms_textcomp__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../atoms/textcomp */ "./components/atoms/textcomp/index.js");
+/* harmony import */ var _atoms_tagdefault__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../atoms/tagdefault */ "./components/atoms/tagdefault/index.js");
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./styled */ "./components/organisms/ranking/styled.js");
+
 
 
 
@@ -3275,7 +3323,7 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Ranking, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_13__["BlockDefault"], {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_14__["BlockDefault"], {
         className: "blockDefault col-md-4"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "blockContainer"
@@ -3283,27 +3331,33 @@ function (_React$Component) {
         className: "row bottomBorder"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-7 col-md-7 no-gutter"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "Rank"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconstar__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberbigger__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 32,
+        width: 32
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconstar__WEBPACK_IMPORTED_MODULE_10__["default"], null)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberbigger__WEBPACK_IMPORTED_MODULE_11__["default"], {
         text: "607"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textcomp__WEBPACK_IMPORTED_MODULE_11__["default"], null, "You're in top ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", null, "40%"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textcomp__WEBPACK_IMPORTED_MODULE_12__["default"], null, "You're in top ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", null, "40%"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "col-xs-5 col-md-5 no-gutter"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "Projects"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconbracket__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberbigger__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        height: 32,
+        width: 32
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_iconbracket__WEBPACK_IMPORTED_MODULE_9__["default"], null)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_numberbigger__WEBPACK_IMPORTED_MODULE_11__["default"], {
         text: "45"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textcomp__WEBPACK_IMPORTED_MODULE_11__["default"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", null, "10"), " in this month"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_textcomp__WEBPACK_IMPORTED_MODULE_12__["default"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", null, "10"), " in this month"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row no-margin-bottom"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_titleh5__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "Top Categories"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
         className: "topCategories"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_13__["default"], {
         text: "ruby"
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_13__["default"], {
         text: "clojure"
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_atoms_tagdefault__WEBPACK_IMPORTED_MODULE_13__["default"], {
         text: "java"
       }))))));
     }
@@ -3333,7 +3387,7 @@ __webpack_require__.r(__webpack_exports__);
 var BlockDefault = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "styled__BlockDefault",
   componentId: "sc-16b3aia-0"
-})([".blockContainer{@media (min-width:992px){max-height:246px;}}li{display:inline-block;margin-right:12px;margin-bottom:16px;&:after{content:\"\";clear:both;display:block;}}"]);
+})([".blockContainer{@media (min-width:992px){max-height:246px;}}li{display:inline-block;margin-right:12px;margin-bottom:16px;&:after{content:\"\";clear:both;display:block;}}.LazyLoad{margin-right:8px;}"]);
 
 /***/ }),
 
@@ -3354,9 +3408,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "../node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./styled */ "./components/organisms/slack/styled.js");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-lazy-load */ "react-lazy-load");
+/* harmony import */ var react_lazy_load__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_lazy_load__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./styled */ "./components/organisms/slack/styled.js");
+
 
 
 
@@ -3402,7 +3459,7 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return this.state.showComponent && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_8__["BlockSlack"], {
+      return this.state.showComponent && react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_9__["BlockSlack"], {
         className: this.state.fade ? "fade col-md-12" : "col-md-12",
         clickedButton: this.close
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -3411,10 +3468,10 @@ function (_React$Component) {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "col-xs-12 col-md-1"
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__["FontAwesomeIcon"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_lazy_load__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8__["FontAwesomeIcon"], {
         className: "icon",
         icon: ['fab', 'slack-hash']
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "col-xs-12 col-md-6"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h5", null, "Join the conversation on Slack"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", null, "Stay up to date on the latest news and special programs that only take place within the slack channel.")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "col-xs-12 col-md-5 btns"
@@ -3949,6 +4006,17 @@ module.exports = require("react-dom");
 /***/ (function(module, exports) {
 
 module.exports = require("react-google-charts");
+
+/***/ }),
+
+/***/ "react-lazy-load":
+/*!**********************************!*\
+  !*** external "react-lazy-load" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-lazy-load");
 
 /***/ }),
 

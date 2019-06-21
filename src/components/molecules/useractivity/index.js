@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazy-load';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TagEth from '../../atoms/tageth';
 import TagBtc from '../../atoms/tagbtc';
@@ -28,7 +29,9 @@ class UserActivity extends React.Component {
 					<div className="row">      		
 						<div className="col avatar">
 							<IconCode />
-							<ThumbAvatar className="avatarImg" src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar className="avatarImg" src={myImg} />
+						  	</LazyLoad>
 						</div>
 						<div className="col infos">
 							<div className="name">
@@ -47,7 +50,9 @@ class UserActivity extends React.Component {
 					<div className="row">      		
 						<div className="col avatar">
 							<IconDollar />
-							<ThumbAvatar className="avatarImg" src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar className="avatarImg" src={myImg} />
+						  	</LazyLoad>
 						</div>
 						<div className="col infos">
 							<div className="name">
@@ -64,7 +69,10 @@ class UserActivity extends React.Component {
 					<div className="row">      		
 						<div className="col avatar">
 							<IconCode />
-							<ThumbAvatar className="avatarImg" src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar className="avatarImg" src={myImg} />
+						  	</LazyLoad>
+							
 						</div>
 						<div className="col infos">
 							<div className="name">

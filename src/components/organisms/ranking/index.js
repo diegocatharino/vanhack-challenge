@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazy-load';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TitleH5 from '../../atoms/titleh5';
 import IconBracket from '../../atoms/iconbracket';
@@ -17,14 +18,18 @@ class Ranking extends React.Component {
 		      	<div className="row bottomBorder">
 			     	<div className="col-xs-7 col-md-7 no-gutter">
 		  				<TitleH5 text="Rank" />
-		  				<IconStar />
+						<LazyLoad height={32} width={32}>
+		  					<IconStar />
+					  	</LazyLoad>
 		  				<NumberBigger text="607" />
 
 			     		<TextComp>You're in top <strong>40%</strong></TextComp>
 			     	</div>
 			     	<div className="col-xs-5 col-md-5 no-gutter">
 		  				<TitleH5 text="Projects" />
-		  				<IconBracket />
+						<LazyLoad height={32} width={32}>
+		  					<IconBracket />
+					  	</LazyLoad>
 		  				<NumberBigger text="45" />
 			     		<TextComp><strong>10</strong> in this month</TextComp>
 			     	</div>

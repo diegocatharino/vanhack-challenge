@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazy-load';
 import TagEth from '../../atoms/tageth';
 import TagBtc from '../../atoms/tagbtc';
 import TagDefault from '../../atoms/tagdefault';
@@ -19,7 +20,9 @@ class UserProjects extends React.Component {
 				<div className="blockContainer">
 			      	<div className="row">
 						<div className="col-xs-10">
-							<ThumbAvatar src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar src={myImg} />
+						  	</LazyLoad>
 							<div className="name">
 								<TextAvatar text="Alice Martin" />
 								<TextTime text="5 hours ago" />
@@ -51,7 +54,9 @@ class UserProjects extends React.Component {
 				<div className="blockContainer">
 			      	<div className="row">
 						<div className="col-xs-10">
-							<ThumbAvatar src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar src={myImg} />
+						  	</LazyLoad>
 							<div className="name">
 								<TextAvatar text="Alice Martin" />
 								<TextTime text="5 hours ago" />
@@ -81,7 +86,9 @@ class UserProjects extends React.Component {
 				<div className="blockContainer">
 			      	<div className="row">
 						<div className="col-xs-10">
-							<ThumbAvatar src={myImg} />
+							<LazyLoad height={48} width={48}>
+								<ThumbAvatar src={myImg} />
+						  	</LazyLoad>
 							<div className="name">
 								<TextAvatar text="Alice Martin" />
 								<TextTime text="5 hours ago" />
