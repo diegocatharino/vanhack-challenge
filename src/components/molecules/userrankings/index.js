@@ -7,7 +7,7 @@ import TextTime from '../../atoms/texttime';
 import ThumbAvatar from '../../atoms/thumbavatar';
 import TextAvatar from '../../atoms/textavatar';
 import NumberDefault from '../../atoms/numberdefault';
-import myImg from '../../../static/images/thumbavatar-default.png';
+
 // Import Style
 import { BlockDefault } from './styled';
 

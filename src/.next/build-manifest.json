@@ -1,27 +1,53 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_8883268e1b4f9ff612b3.js"
-  ],
+  "devFiles": [],
   "pages": {
+    "/": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/css/commons.182dade3.chunk.css",
+      "static/chunks/commons.79266b535cb63851f729.js",
+      "static/runtime/main-f12c4e3dabdbc1dd450f.js"
+    ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/css/commons.182dade3.chunk.css",
+      "static/chunks/commons.79266b535cb63851f729.js",
+      "static/runtime/main-f12c4e3dabdbc1dd450f.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/css/commons.182dade3.chunk.css",
+      "static/chunks/commons.79266b535cb63851f729.js",
+      "static/runtime/main-f12c4e3dabdbc1dd450f.js"
     ],
     "/activity": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/css/commons.182dade3.chunk.css",
+      "static/chunks/commons.79266b535cb63851f729.js",
+      "static/runtime/main-f12c4e3dabdbc1dd450f.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/css/commons.182dade3.chunk.css",
+      "static/chunks/commons.79266b535cb63851f729.js",
+      "static/runtime/main-f12c4e3dabdbc1dd450f.js"
     ],
     "/payments": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/css/commons.182dade3.chunk.css",
+      "static/chunks/commons.79266b535cb63851f729.js",
+      "static/runtime/main-f12c4e3dabdbc1dd450f.js"
+    ],
+    "/projects": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/css/commons.182dade3.chunk.css",
+      "static/chunks/commons.79266b535cb63851f729.js",
+      "static/runtime/main-f12c4e3dabdbc1dd450f.js"
+    ],
+    "/settings": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/css/commons.182dade3.chunk.css",
+      "static/chunks/commons.79266b535cb63851f729.js",
+      "static/runtime/main-f12c4e3dabdbc1dd450f.js"
     ]
   }
 }

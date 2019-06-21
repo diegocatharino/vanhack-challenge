@@ -2,11 +2,14 @@
   "name": "vanhack-challenge",
   "version": "1.0.0",
   "description": "Projeto em Reactjs (v16.8.6) para a Vanhack.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "node server.js",
-    "build": "export NODE_ENV=production && next build ./src",
-    "start": "cross-env NODE_ENV=production node server.js  && next start ./src",
+    "build": "next build ./src",
+    "now-build": "next build",
+    "start": "next start -p %PORT%",
+    "prod_start": "cross-env NODE_ENV=production node server.js",
+    "export": "next export",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

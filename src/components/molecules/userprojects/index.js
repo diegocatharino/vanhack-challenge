@@ -10,7 +10,6 @@ import TextAvatar from '../../atoms/textavatar';
 import TextBigger from '../../atoms/textbigger';
 // Import Style
 import { BlockDefault } from './styled';
-import myImg from '../../../static/images/thumbavatar-default.png';
 
 const API = `static/api/projects.json`;
 

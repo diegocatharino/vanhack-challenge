@@ -13,7 +13,6 @@ import TextDefault from '../../atoms/textdefault';
 import NumberDefault from '../../atoms/numberdefault';
 // Import Style
 import { BlockDefault } from './styled';
-import myImg from '../../../static/images/thumbavatar-default.png';
 
 const API = `static/api/activity.json`;
 
