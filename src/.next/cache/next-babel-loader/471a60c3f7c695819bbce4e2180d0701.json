@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var BtnClose = styled.text.withConfig({\n  displayName: \"styled__BtnClose\",\n  componentId: \"sc-1uxxuoa-0\"\n})([\"position:fixed;right:16px;top:16px;z-index:9991;font-size:24px;margin:0;color:#fff;cursor:pointer;\"]);","map":null,"metadata":{},"sourceType":"module"}

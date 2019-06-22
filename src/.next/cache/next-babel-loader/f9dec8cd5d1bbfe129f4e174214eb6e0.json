@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var ThumbAvatar = styled.text.withConfig({\n  displayName: \"styled__ThumbAvatar\",\n  componentId: \"sc-1h9r8h-0\"\n})([\"display:inline-block;\"]);","map":null,"metadata":{},"sourceType":"module"}

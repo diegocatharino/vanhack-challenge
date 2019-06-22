@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var BlockWithSection = styled.div.withConfig({\n  displayName: \"styled__BlockWithSection\",\n  componentId: \"sc-10a96gh-0\"\n})([\".menu{display:none;}\"]);","map":null,"metadata":{},"sourceType":"module"}

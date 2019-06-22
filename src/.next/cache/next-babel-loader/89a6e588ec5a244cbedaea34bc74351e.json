@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var IconMap = styled.button.withConfig({\n  displayName: \"styled__IconMap\",\n  componentId: \"sc-68ha0i-0\"\n})([\"box-sizing:border-box;background:none;font-size:21px;color:#fff;margin-right:16px;\"]);","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var IconBars = styled.button.withConfig({\n  displayName: \"styled__IconBars\",\n  componentId: \"eybime-0\"\n})([\"box-sizing:border-box;background:none;font-size:21px;color:#fff;margin-right:16px;cursor:pointer;\"]);","map":null,"metadata":{},"sourceType":"module"}

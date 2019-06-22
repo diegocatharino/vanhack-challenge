@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var IconStar = styled.text.withConfig({\n  displayName: \"styled__IconStar\",\n  componentId: \"sc-1y50z35-0\"\n})([\"box-sizing:border-box;background:none;color:#fff;margin-right:8px;svg{font-size:16px;}\"]);","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,27 @@
+{
+    "data": [{
+            "number": "1",
+            "name": "Mathew John",
+            "earnings": "$10938.34",
+            "avatar": "/static/images/thumbavatar-mj.jpg"
+        },
+        {
+            "number": "2",
+            "name": "Daniel Belu",
+            "earnings": "$9087.10",
+            "avatar": "/static/images/thumbavatar-db.jpg"
+        },
+        {
+            "number": "3",
+            "name": "Elizabeth Kin",
+            "earnings": "$6789.90",
+            "avatar": "/static/images/thumbavatar-ek.jpg"
+        },
+        {
+            "number": "4",
+            "name": "Arosuh Uyt",
+            "earnings": "$6009.00",
+            "avatar": "/static/images/thumbavatar-au.jpg"
+        }
+    ]
+}

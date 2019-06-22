@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var TextAvatar = styled.text.withConfig({\n  displayName: \"styled__TextAvatar\",\n  componentId: \"i8lm3f-0\"\n})([\"color:#42505C;font-size:16px;line-height:25px;letter-spacing:0.75px;display:block;font-weight:600;\"]);","map":null,"metadata":{},"sourceType":"module"}

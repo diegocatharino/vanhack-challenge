@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var IconBracket = styled.text.withConfig({\n  displayName: \"styled__IconBracket\",\n  componentId: \"qipsvk-0\"\n})([\"box-sizing:border-box;background:none;color:#fff;margin-right:8px;svg{font-size:16px;}\"]);","map":null,"metadata":{},"sourceType":"module"}

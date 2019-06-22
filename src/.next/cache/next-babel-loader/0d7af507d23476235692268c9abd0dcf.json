@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\"; // Import Style\n\nimport { ThumbAvatar } from './styled';\n\nvar Img = function Img(props) {\n  return React.createElement(ThumbAvatar, props, React.createElement(\"img\", {\n    src: props.src\n  }));\n};\n\nexport default Img;","map":null,"metadata":{},"sourceType":"module"}

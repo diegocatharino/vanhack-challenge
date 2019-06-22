@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var TextTime = styled.text.withConfig({\n  displayName: \"styled__TextTime\",\n  componentId: \"ouv6s7-0\"\n})([\"color:#79828B;font-size:12px;line-height:18px;letter-spacing:0.75px;display:block;\"]);","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var BlockWithSection = styled.div.withConfig({\n  displayName: \"styled__BlockWithSection\",\n  componentId: \"rkem3m-0\"\n})([\"\"]);","map":null,"metadata":{},"sourceType":"module"}

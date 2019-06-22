@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var NumberBigger = styled.text.withConfig({\n  displayName: \"styled__NumberBigger\",\n  componentId: \"sc-1atzaey-0\"\n})([\"color:#42505C;font-weight:500;font-size:30px;letter-spacing:0.75px;line-height:46px;\"]);","map":null,"metadata":{},"sourceType":"module"}

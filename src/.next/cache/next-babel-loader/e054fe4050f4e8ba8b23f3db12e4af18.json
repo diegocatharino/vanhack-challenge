@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Import Styled\nimport styled from 'styled-components';\nexport var TitleH2 = styled.text.withConfig({\n  displayName: \"styled__TitleH2\",\n  componentId: \"sc-15moerf-0\"\n})([\"opacity:0.9;color:#42505C;display:inline-block;h2{font-weight:500;font-size:18px;letter-spacing:0.25px;line-height:15px;}\"]);","map":null,"metadata":{},"sourceType":"module"}

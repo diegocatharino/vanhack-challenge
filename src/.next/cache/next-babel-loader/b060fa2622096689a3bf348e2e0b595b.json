@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Estado inicial da aplicação\nexport var initialState = {\n  modalStatus: false,\n  loaderStatus: false,\n  sucessModal: false\n};","map":null,"metadata":{},"sourceType":"module"}
